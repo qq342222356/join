@@ -89,7 +89,7 @@ url: "",//要请求的服务器url
 //data:{method:"ajaxTest",val:value},
 data: {
     name: $("#name").val(),
-sex: $("#man").val()?$("#man").val():$("#woman").val(),
+sex: $("#man").val()?$("#man").val():$("#woman").text(),
 danwei: $("#danwei").val(),
 job: $("#job").val(),
 phone: $("#phone").val(),
@@ -120,7 +120,7 @@ alert("true");
 })
 $("#woman").click(function () {
     $("#man").html("");
-    $("#woman").html("女");
+    $("#woman").val("女");
     console.log($("#man").text());
     console.log($("#woman").text());
 })
