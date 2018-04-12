@@ -13,64 +13,67 @@
         <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">姓名：</label>
             <div id="div" class="col-sm-10">
-                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input name="name" style="color:#fff" onblur="reg_name(this.value);" required type="text" class="form-control" id="inputEmail3" placeholder="请输入姓名">
+                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px;font-size: .7rem">*</span><input name="name" style="color:#fff" onblur="reg_name(this.value);" required type="text" class="form-control" id="inputEmail3" placeholder="请输入姓名">
 
-                <span id="t" style="color:#860000"></span>
+                <span id="t" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">性别：</label>
             <div id="div" class="col-sm-10" style="padding-top:7px">
-                <input style="width: 20px;" id="man" type="radio" checked="checked" name="sex" value="男"/>男<input style="margin-left: 10px;width: 20px;" id="woman" type="radio"  name="sex" value="女"/>女
+                <input style="float:left;width: .35rem;" id="man" type="radio" checked="checked" name="sex" value="男"/><div style="width: .35rem;height: .76rem;font-size: .35rem;float: left;line-height: .76rem">男</div><input style="float:left; margin-left: .4rem;width: .35rem;" id="woman" type="radio"  name="sex" value="女"/><div style="width: .35rem;height: .76rem;font-size: .35rem;float: left;line-height: .76rem">女</div>
 
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">单位：</label>
             <div id="div" class="col-sm-10">
-                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input required style="color:#fff" name="danwei" onblur="reg_danwei(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入所在单位">
-                <span id="w" style="color:#860000"></span>
+                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px;font-size: .7rem">*</span><input required style="color:#fff" name="danwei" onblur="reg_danwei(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入所在单位">
+                <span id="w" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">职务：</label>
             <div id="div" class="col-sm-10">
-                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input required style="color:#fff" name="job" onblur="reg_job(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入职务">
-                <span id="q" style="color:#860000"></span>
+                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px;font-size: .7rem">*</span><input required style="color:#fff" name="job" onblur="reg_job(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入职务">
+                <span id="q" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">电话：</label>
             <div id="div" class="col-sm-10">
-                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input style="color:#fff" name="phone" onblur="reg_phone(this.value);" required type="text" class="form-control" id="inputPassword3" placeholder="请输入联系方式">
-                <span id="e" style="color:#860000"></span>
+                <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px;font-size: .7rem">*</span><input style="color:#fff" name="phone" onblur="reg_phone(this.value);" required type="text" class="form-control" id="inputPassword3" placeholder="请输入联系方式">
+                <span id="e" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">邮箱：</label>
             <div id="div" class="col-sm-10">
-                <input style="color:#fff" name="email" onblur="reg_email(this.value);" type="email" class="form-control" id="inputPassword3" placeholder="请输入邮箱">
-                <span id="r" style="color:#860000"></span>
+                <input style="color:#fff; name="email" onblur="reg_email(this.value);" type="email" class="form-control" id="inputPassword3" placeholder="请输入邮箱">
+                <span id="r" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">微信：</label>
             <div id="div" class="col-sm-10">
-                <input style="color:#fff" name="vxin" onblur="reg_vxin(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入微信号">
-                <span id="y" style="color:#860000"></span>
+               <input style="color:#fff;margin-bottom: .2rem" name="vxin" onblur="reg_vxin(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入微信号">
+                <span id="y" style="color:#ff003f"></span>
             </div>
         </div>
         <div class="form-group">
             <div id="div" class="col-sm-offset-2 col-sm-10">
-                <button id="but" type="submit" class="btn btn-primary btn-lg" style="width:3rem;margin-top: .3rem;margin-bottom: .4rem;margin-left: 1.2rem">提交</button>
+                <button id="but" type="submit" class="btn btn-primary btn-lg" style="width:3rem;height:.8rem;margin-top: .3rem;margin-bottom: .4rem;margin-left: 1.2rem;font-size: .3rem">提交</button>
             </div>
         </div>
     </form>
-    <h5 style="text-align: center;color: red;line-height: 15px">*号表示为必填项</h5>
+    <h1 style="color: red;line-height: 15px"><span style="float: left;color: #ff003f;font-size: .7rem;margin: .08rem  0  .5rem 3.1rem">*</span>号表示为必填项</h1>
     </div>
 </div>
 </body>
 <style>
+    #r,#y{
+        margin-left: .3rem;
+    }
     html{
         font-size: 100px!important;
     }
@@ -81,23 +84,23 @@
     }
     .container{
         width: 100%;
-        height: 1743px;
-        background-image: url("phone.jpg");
+        height: 17.43rem;
+        background-image: url("../change.jpg");
         background-size: 100% 100%;
     }
     #form{
-        margin-top: 60px;
-        margin-left: 10px;
+        margin-top: .6rem;
+        margin-left: .1rem;
     }
     .content{
         width: 9rem;
         min-height: 6rem;
         /*margin:100px auto;*/
         background: rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
+        border-radius: .2rem;
         color: #fff;
         font-weight: 800;
-        font-size: 15px;
+        font-size: .15rem;
         position: absolute;
         top:4rem;
         left:0;
@@ -106,17 +109,18 @@
     }
     .content img{
         display: block;
-        margin:20px auto;
-        padding: 75px 0 20px 0;
+        margin:.2rem auto;
+        padding: .75rem 0 .2rem 0;
     }
     .form-group input{
-        width: 98%;
+        width: 94%;
         background: rgba(255, 255, 255, 0);
-        height: 76px;
+        height: .76rem;
         font-size: .3rem;
+        margin-left: .3rem;
     }
     .form-group{
-        margin: 20px 20px!important;
+        margin: .2rem!important;
         font-size: .3rem;
     }
     #form label{
@@ -130,5 +134,5 @@
 </style>
 <script src="../bootstrap-3.3.7-dist/js/jquery.js"></script>
 <script src="../bootstrap-3.3.7-dist/js/join.js"></script>
-<script src="js.js"></script>
+<!--<script src="js.js"></script>-->
 </html>
