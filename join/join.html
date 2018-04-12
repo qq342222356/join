@@ -5,6 +5,7 @@
     <title>报名参加</title>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <link href="favicon.ico" rel="shortcut icon" />
 </head>
 <body>
 <img src="last.jpg" class="img" alt="">
@@ -13,51 +14,52 @@
             <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">姓名：</label>
                 <div class="col-sm-10">
-                    <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input name="name" style="color:#fff" onblur="reg_name(this.value);" required type="text" class="form-control" id="inputEmail3" placeholder="请输入姓名">
-
-                    <span id="t" style="color:#860000"></span>
+                    <span style="float: left;color: #ff003f;margin-top: 3px;margin-left: -10px;font-size: 30px">*</span>
+                    <input name="name" style="color:#fff" onblur="reg_name(this.value);" required type="text" class="form-control" id="inputEmail3" placeholder="请输入姓名">
+                    <span id="t" style="color:#ff003f"></span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">性别：</label>
                 <div class="col-sm-10" style="padding-top:7px">
-                    <input style="width: 20px;" id="man" type="radio" checked="checked" name="sex" value="男"/>男<input style="margin-left: 10px;width: 20px;" id="woman" type="radio"  name="sex" value="女"/>女
+                    <input style="width: 20px;" id="man" type="radio" checked="checked" name="sex" value="男"/>男
+                    <input style="margin-left: 10px;width: 20px;" id="woman" type="radio"  name="sex" value="女"/>女
 
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">单位：</label>
                 <div class="col-sm-10">
-                    <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input required style="color:#fff" name="danwei" onblur="reg_danwei(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入所在单位">
-                    <span id="w" style="color:#860000"></span>
+                    <span style="float: left;color: #ff003f;margin-top: 3px;margin-left: -10px;font-size: 30px">*</span><input required style="color:#fff" name="danwei" onblur="reg_danwei(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入所在单位">
+                    <span id="w" style="color:#ff003f"></span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">职务：</label>
                 <div class="col-sm-10">
-                    <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input required style="color:#fff" name="job" onblur="reg_job(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入职务">
-                    <span id="q" style="color:#860000"></span>
+                    <span style="float: left;color: #ff003f;margin-top: 3px;margin-left: -10px;font-size: 30px">*</span><input required style="color:#fff" name="job" onblur="reg_job(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入职务">
+                    <span id="q" style="color:#ff003f"></span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">电话：</label>
                 <div class="col-sm-10">
-                    <span style="float: left;color: #ff003f;margin-top: 8px;margin-left: -10px">*</span><input style="color:#fff" name="phone" onblur="reg_phone(this.value);" required type="text" class="form-control" id="inputPassword3" placeholder="请输入联系方式">
-                    <span id="e" style="color:#860000"></span>
+                    <span style="float: left;color: #ff003f;margin-top: 3px;margin-left: -10px;font-size: 30px">*</span><input style="color:#fff" name="phone" onblur="reg_phone(this.value);" required type="text" class="form-control" id="inputPassword3" placeholder="请输入联系方式">
+                    <span id="e" style="color:#ff003f"></span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">邮箱：</label>
                 <div class="col-sm-10">
-                    <input style="color:#fff" name="email" onblur="reg_email(this.value);" type="email" class="form-control" id="inputPassword3" placeholder="请输入邮箱">
-                    <span id="r" style="color:#860000"></span>
+                    <input style="color:#fff;margin-left: 6px" name="email" onblur="reg_email(this.value);" type="email" class="form-control" id="inputPassword3" placeholder="请输入邮箱">
+                    <span id="r" style="color:#ff003f"></span>
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">微信：</label>
                 <div class="col-sm-10">
-                    <input style="color:#fff" name="vxin" onblur="reg_vxin(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入微信号">
-                    <span id="y" style="color:#860000"></span>
+                    <input style="color:#fff;margin-left: 6px" name="vxin" onblur="reg_vxin(this.value);" type="text" class="form-control" id="inputPassword3" placeholder="请输入微信号">
+                    <span id="y" style="color:#ff003f"></span>
             </div>
         </div>
             <div class="form-group">
@@ -95,7 +97,7 @@
         font-weight: 800;
         font-size: 15px;
         position: absolute;
-        bottom:80px;
+        top:260px;
         left:0;
         right:0;
         margin: auto;
